@@ -2,6 +2,8 @@
 
 ---
 
+## Install GCC
+
 ```bash
 // Update Arch
 
@@ -71,4 +73,6 @@ $ chmod a+x hello
 
 $ ./hello
 ```
+
+---
 
