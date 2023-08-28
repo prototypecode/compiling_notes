@@ -38,3 +38,37 @@ $ sudo pacman -Rcnu gcc
 
 ---
 
+## C Program Compile
+
+```c
+// hello.c
+#include <stdio.h>
+
+int main()
+{
+  printf("Hello, world!\n");
+  return 0;
+}
+
+```
+
+Default Output
+
+```bash
+$ gcc hello.c
+
+$ chmod a+x a.out
+
+$ ./a.out
+```
+
+Labeled Output
+
+```bash
+$ gcc -o hello hello.c
+
+$ chmod a+x hello
+
+$ ./hello
+```
+
