@@ -31,7 +31,10 @@ $ gcc --version
 
 $ sudo -Rns gcc
 
-// Remove GCC & Dependencies
+// Remove GCC/Dependencies
 
 $ sudo pacman -Rcnu gcc
 ```
+
+---
+
